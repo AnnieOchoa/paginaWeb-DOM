@@ -243,3 +243,56 @@ body {
 .cart__show{
   display: block;
 }
+
+/*Esta parte es hecha por Elvin Eduardo Franco, trata del body*/
+
+:root {
+  --primary-color: #3e739d;
+  --btn-hoverColor: rgb(255, 111, 0);
+  --text-color: #fff;
+  --secondary-color: #29ADB2;
+  --text-colorBlack: black;
+  --box-shadow: #4E4B5076;
+}
+
+.novedades {
+  margin: 10px;
+  margin-top: 15%;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+
+
+}
+.productos-1 {
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  box-shadow: var(--box-shadow);
+  border: 3px;
+  border-color: var(--text-colorBlack);
+  background-color: var(--text-color);
+  margin: 10px;
+  list-style-type: none;
+  color: var(--text-colorBlack);
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  color: var(--text-colorBlack);
+  border: none;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.btn:hover{
+  background-color: var(--btn-hoverColor);
+  cursor: pointer;
+  color: var(--text-color);
+  transition: 400ms;
+}
