@@ -1,12 +1,14 @@
 import './style.css'
 import Header from "./src/components/header"
-import Body from "./src/components/body"
-const body = Body()
+
+
 const header = Header()
 
 const app = document.querySelector('#app')
+const footer = Footer()
 
 app.appendChild(header)
+app.appendChild(footer)
 const hamburgermenu = document.querySelector('#hamburger-menu')
 hamburgermenu?.addEventListener('click', () => {
   document.querySelector('.cart').classList.toggle('cart__show')
