@@ -1,6 +1,6 @@
 import './style.css'
 import Header from "./src/components/header"
-
+import Footer from './src/components/footer'
 import Body from "./src/components/body"
 
 const header = Header()
