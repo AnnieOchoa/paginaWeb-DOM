@@ -278,7 +278,9 @@ body {
 .hero {
   overflow-x: hidden;
   overflow-y: hidden;
-  overflow-y: hidden;
+  white-space: nowrap;
+  /*animation: hero 15s infinite linear;
+  white-space: nowrap;*/
 }
 
 .productos-1 {
@@ -287,8 +289,6 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  /*overflow-x: hidden;
-  overflow-y: hidden;*/
 }
 
 .card {
@@ -330,8 +330,6 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  /*overflow-x: hidden;
-  overflow-y: hidden;*/
 }
 
 .productos-3 {
@@ -341,6 +339,5 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  /*overflow-x: hidden;
-  overflow-y: hidden;*/
 }
+/* fin participación Elvin Eduardo*/
