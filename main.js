@@ -1,12 +1,15 @@
 import './style.css'
 import Header from "./src/components/header"
 
+import Body from "./src/components/body"
 
 const header = Header()
+const body = Body()
 
 const app = document.querySelector('#app')
 const footer = Footer()
 
+app.appendChild(body)
 app.appendChild(header)
 app.appendChild(footer)
 const hamburgermenu = document.querySelector('#hamburger-menu')
