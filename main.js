@@ -85,5 +85,15 @@ const stop = ()=> {
 
 start();
 
+const header_a1 = document.querySelector('.header_a1')
+const hero_b2 = document.querySelector('.hero_b2')
+const main_1 = document.querySelector('.main_1')
+const footer_1 = document.querySelector('.footer_1')
+
+header_a1.appendChild(header).innerHTML
+hero_b2.appendChild(hero).innerHTML
+main_1.appendChild(body).innerHTML
+footer_1.appendChild(footer).innerHTML
+
 
 //fin participación Elvin Eduardo
