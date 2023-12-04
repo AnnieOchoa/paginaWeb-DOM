@@ -492,6 +492,7 @@ a:hover{
   align-items: center;
   padding-top: 3%;
   display: flex;
+  min-width: 300px;
   
 }
 
